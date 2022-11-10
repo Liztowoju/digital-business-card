@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #23252C;
+    font-family: Inter, sans-serif;
+}
+h1{
+    margin: 0;
+}
+
+.app {
+    width: 317px;
+    margin: 0 auto;
+}
+
+.profile-area>img {
+    padding-bottom: 20px;
+}
+
+.profile-area{
+    background-color: #1A1B21;
+    margin-top: 45px;
+
+}
+
+.profile-area>h1 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.profile-area>h4 {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #F3BF99;
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+.web-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    text-align: center;
+    color: #F5F5F5;
+    text-decoration: none;
+    display: block;
+}
+.profile-area-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    padding-top: 15px;
+    padding-bottom: 33px;
+
+}
+.profile-area-contact>a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 10px 20px;
+
+}
+ a > img{
+    padding-right: 9px;
+}
+
+.email-contact{
+    background-color:#D1D5DB;
+    color: #374151;
+}
+.linkedin-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#5093E2;
+    color: white;
+}
+.about-content, .interests-content{
+color: #DCDCDC;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+/* width: 240px; */
+padding-left: 36px;
+padding-right: 36px;
+margin: 0 auto;
+padding-bottom: 27px;
+}
+
+.about-content >h1, .interests-content>h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px; 
+    margin: 0;  
+    color: #F5F5F5;;
+}
+.interests{
+    padding-bottom: 24px;
+}
+.main-section{
+background-color: #1A1B21;
+}
+
+.footer{
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 20px;
+}
