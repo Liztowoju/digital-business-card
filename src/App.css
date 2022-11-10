@@ -20,10 +20,15 @@ h1{
 
 .profile-area>img {
     padding-bottom: 20px;
+    width: 317px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .profile-area{
     background-color: #1A1B21;
+    border-radius: 5px;
     margin-top: 45px;
 
 }
@@ -40,7 +45,7 @@ h1{
     font-size: 13px;
     font-weight: 400;
     text-align: center;
-    color: #F3BF99;
+    color: #e47eb5;
     margin: 0;
     padding-top: 7px;
     padding-bottom: 9px;
@@ -67,7 +72,6 @@ h1{
 .profile-area-contact>a {
     text-decoration: none;
     display: block;
-    border: 1px solid #D1D5DB;
     border-radius: 6px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     padding: 10px 20px;
@@ -94,7 +98,6 @@ font-size: 10px;
 font-weight: 400;
 line-height: 15px;
 text-align: left;
-/* width: 240px; */
 padding-left: 36px;
 padding-right: 36px;
 margin: 0 auto;
